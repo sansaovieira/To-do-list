@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.form {
+    display: flex;
+    box-sizing: border-box;
+    background-color:#000;
+    padding: 4%;
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: underline;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5% 5%; 
+    text-transform: uppercase;
+}
+
+ .tarefas-add {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.p_primeiro {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 5%;
+    border: 1px solid #fff;
+    border-radius: 0 5px 5px 5px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.p_segundo {
+    border: none;
+    width: 100px;
+    margin-left: 3px;
+    padding: 6px;
+    color: #fff;
+    background-color: transparent;
+}
+
+.tarefas-listar-remover {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.p_terceiro {
+    border: none;
+    width: 100px;
+    margin-left: 3px;
+    padding: 6px;
+    color: #fff;
+    background-color: transparent;
+}
